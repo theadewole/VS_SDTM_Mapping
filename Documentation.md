@@ -29,3 +29,27 @@ Convert the horizontal format data, where each VS parameter is a separate column
 
 ## Input
 - [Vsraw](https://github.com/theadewole/VS_SDTM_Mapping/blob/main/vsraw.sas7bdat)
+
+## R Libraries Used
+- haven: Used for reading and writing data files in SAS, SPSS, and Stata formats.
+- lubridate: Simplifies working with dates and times in R.
+- tidyverse: A collection of R packages for data manipulation, visualization, and analysis, including ggplot2, dplyr, and others.
+- labelled: Provides tools to work with labelled data, typically from survey datasets, allowing for label manipulation and
+- extraction.
+
+## Output
+The final dataset includes the following columns: <br>
+VSSEQ: Sequential number of the observation.<br>
+USUBJID: Unique Subject Identifier.<br>
+VISIT: Visit name or number.<br>
+EPOCH: Epoch in the study.<br>
+VSDTC: Date and Time of Collection.<br>
+VSTEST: Vital Signs Test Name.<br>
+VSTESTCD: Vital Signs Test Code.<br>
+VSORRES: Original Result.<br>
+VSORRESU: Original Result Unit.<br>
+VSSTRESN: Standardized Numeric Result.<br>
+VSSTRESC: Standardized Character Result.<br>
+VSSTRESU: Standardized Unit.<br>
+VSDRVFL: Derived Record Flag.<br>
+VSBLFL: Baseline Record Flag.<br>
