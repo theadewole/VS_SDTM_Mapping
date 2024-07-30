@@ -3,7 +3,6 @@ library(haven)
 library(lubridate)
 library(tidyverse)
 library(labelled)
-library(openxlsx)
 
 #importinmg the dataset
 Vs <- read_sas("C:/Users/PC/Documents/AFSS/Safety Domains/3.VS - Vital Signs/vsraw.sas7bdat")
@@ -90,5 +89,3 @@ final <- merged |>
     VSBLFL="Baseline Record Flag"
   )
 
-#writing the final dataset into excel  
-write.xlsx(final,"C:/Users/PC/Documents/AFSS/R/Project/vs_sdtm_mapped.xlsx")
