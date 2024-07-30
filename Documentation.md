@@ -28,4 +28,4 @@ Convert the horizontal format data, where each VS parameter is a separate column
 - Derive the baseline and add as a new record
 
 ## Input
-- Vsraw
+- [Vsraw](https://github.com/theadewole/VS_SDTM_Mapping/blob/main/vsraw.sas7bdat)
