@@ -2,7 +2,6 @@
 library(haven)
 library(lubridate)
 library(tidyverse)
-library(gt)
 library(labelled)
 library(openxlsx)
 
